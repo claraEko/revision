@@ -1,0 +1,41 @@
+.primary {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: var(--pink);
+  border: 1px solid var(--pink);
+}
+.primary:hover {
+  background-color: #fff;
+  color: var(--pink);
+}
+.secondary {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border: 1px solid var(--gray);
+  color: var(--gray);
+  background-color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.secondary:hover {
+  opacity: 0.5;
+}
+.button {
+  display: inline-flex;
+  padding: 40px;
+  align-items: flex-start;
+  gap: 20px;
+}
